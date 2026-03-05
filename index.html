@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBarter</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <h1>CodeBarter</h1>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" placeholder="Search" id="searchBar">
+        </div>
+
+        <div class="user-profile">
+            <div class="credit-badge">
+                <span>Credits: 10</span>
+            </div>
+            <div class="profile-circle">
+                </div>
+        </div>
+    </header>
+
+    <div class="app-layout">
+        
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#explore">Explore Skills</a></li>
+                    <li><a href="#my-requests">My Requests</a></li>
+                    <li><a href="#messages">Messages</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <h2>Active Debugging Requests</h2>
+                <button class="post-request-btn">Post New Request</button>
+            </header>
+
+            <section id="feed">
+                <div class="request-card">
+                    <div class="card-header">
+                        <h3>React useEffect Infinite Loop</h3>
+                        <span class="tag">React</span>
+                    </div>
+                    <p class="description">
+                        Hello friends, My code is going in Infinite Loop when I try to fatch API.
+                        I think the issue is Dependancey Array. SomeOne help me!
+                    </p>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Mursleen</strong> 
+                            <span>Rating: 4.9</span>
+                        </div>
+                        <div class="reward-action">
+                            <span class="reward">5 Credit</span>
+                            <button class="help-btn">Offer Help</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="request-card">
+                    <div class="card-header">
+                        <h3>Django Authentication Middleware Error</h3>
+                        <span class="tag">Python</span>
+                    </div>
+                    <p class="description">
+                        When I am trying to make custom middleware But session is not valid. AnyOne has Django Experience?
+                    </p>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Rahul</strong>
+                            <span>Rating: 4.5</span>
+                        </div>
+                        <div class="reward-action">
+                            <span class="reward">8 Credit</span>
+                            <button class="help-btn">Offer Help</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="request-card">
+                    <div class="card-header">
+                        <h3>Figma to CSS: Auto Layout Issue</h3>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <p class="description">
+                        My design is not responsive. It is overlaping on Mobile Phone When I am trying flexBox.
+                    </p>
+                    <div class="card-footer">
+                        <div class="user-info">
+                            <strong>Ali</strong>
+                            <span>Rating: 4.2</span>
+                        </div>
+                        <div class="reward-action">
+                            <span class="reward">3 Credit</span>
+                            <button class="help-btn">Offer Help</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="requestModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Post a Debugging Request</h2>
+        <form id="requestForm">
+            <input type="text" id="probTitle" placeholder="Problem Title" required>
+            <select id="probTag">
+                <option value="React">React</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="CSS">CSS</option>
+            </select>
+            <textarea id="probDesc" placeholder="Describe your issue in detail..." required></textarea>
+            <input type="number" id="probCredits" placeholder="Credits Offered" required>
+            <button type="submit" class="help-btn">Post to Feed</button>
+        </form>
+    </div>
+</div>
+<script src="assets/javascript/script.js"></script>
+</body>
+</html>y
