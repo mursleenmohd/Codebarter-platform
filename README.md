@@ -6,15 +6,15 @@ CodeBarter is a debugging and skill-exchange platform UI built using HTML, CSS, 
 
 ### Dashboard
 
-![Dashboard](assets/images/dashboard.jpeg)
+![Dashboard](assets/images/dashboard.jpg)
 
 ### Post Request Modal
 
-![Modal](assets/images/modal.jpeg)
+![Modal](assets/images/modal.jpg)
 
 ### New Request Added
 
-![New Request](assets/images/new-request.jpeg)
+![New Request](assets/images/new-request.jpg)
 
 ##  Features
 
