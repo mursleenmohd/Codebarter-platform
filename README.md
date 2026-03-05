@@ -2,6 +2,20 @@
 
 CodeBarter is a debugging and skill-exchange platform UI built using HTML, CSS, and JavaScript.
 
+## Project Preview
+
+### Dashboard
+
+![Dashboard](assets/images/dashboard.jpeg)
+
+### Post Request Modal
+
+![Modal](assets/images/modal.jpeg)
+
+### New Request Added
+
+![New Request](assets/images/new-request.jpeg)
+
 ##  Features
 
 - Dark modern UI
